@@ -1,0 +1,95 @@
+[2025-07-01 12:38:03.164502] URL: http://apichecker.com
+SSL: ❌ SSL check failed: timed out
+DNS: IP: 13.216.111.180, DNS: ['13.216.111.180']
+Title: ❌ Site title fetch failed: HTTPConnectionPool(host='apichecker.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002595F2C5400>, 'Connection to apichecker.com timed out. (connect timeout=5)'))
+----------------------------------------
+[2025-07-01 12:38:10.706337] URL: http://apichecker.com
+SSL: ❌ SSL check failed: timed out
+DNS: IP: 13.216.111.180, DNS: ['13.216.111.180']
+Title: Title: Attention Required! | Cloudflare
+----------------------------------------
+[2025-07-01 12:39:26.294345] URL: http://seba.com
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 198.185.159.145, DNS: ['198.49.23.144', '198.49.23.145', '198.185.159.144', '198.185.159.145']
+Title: Title: Sheriff's Employees' Benefit Association
+----------------------------------------
+[2025-07-01 13:31:03.490980] URL: http://fuck.com
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 104.18.34.211, DNS: ['172.64.153.45', '104.18.34.211']
+Title: Title: Just a moment...
+----------------------------------------
+[2025-07-01 23:26:01.711086] URL: http://dhoner matha
+SSL: ❌ SSL check failed: [Errno 11001] getaddrinfo failed
+DNS: ❌ DNS lookup failed: [Errno 11001] getaddrinfo failed
+Title: ❌ Site title fetch failed: HTTPConnectionPool(host='dhoner%20matha', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000021F42ABD2B0>: Failed to resolve 'dhoner%20matha' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
+[2025-07-01 23:59:01.984948] URL: http://
+SSL: ❌ SSL check failed: check_hostname requires server_hostname
+DNS: ❌ DNS lookup failed: The DNS response does not contain an answer to the question: . IN A
+Title: ❌ Site title fetch failed: Invalid URL 'http://': No host supplied
+----------------------------------------
+[2025-07-02 00:00:33.655584] URL: http://#tag 😘😘😘
+SSL: ❌ SSL check failed: check_hostname requires server_hostname
+DNS: ❌ DNS lookup failed: The DNS response does not contain an answer to the question: . IN A
+Title: ❌ Site title fetch failed: Invalid URL 'http://#tag 😘😘😘': No host supplied
+----------------------------------------
+[2025-07-02 00:05:05.035491] URL: http://127.0.0.1:5000
+SSL: ❌ SSL check failed: [Errno 11001] getaddrinfo failed
+DNS: ❌ DNS lookup failed: [Errno 11001] getaddrinfo failed
+Title: Title: Website Verifier
+----------------------------------------
+[2025-07-02 00:23:55.629329] URL: http://fucker.com
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 104.21.36.69, DNS: ['172.67.186.232', '104.21.36.69']
+Title: Title: Fucker.com
+----------------------------------------
+[2025-07-02 00:25:02.022652] URL: http://voda
+SSL: ❌ SSL check failed: [Errno 11001] getaddrinfo failed
+DNS: ❌ DNS lookup failed: [Errno 11001] getaddrinfo failed
+Title: ❌ Site title fetch failed: HTTPConnectionPool(host='voda', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001B1480B4F50>: Failed to resolve 'voda' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
+[2025-07-02 00:39:58.929725] URL: http://porntube.com/api
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 104.21.112.1, DNS: ['104.21.64.1', '104.21.32.1', '104.21.96.1', '104.21.16.1', '104.21.48.1', '104.21.80.1', '104.21.112.1']
+Title: Title: PornTube ® - Free Porn Videos | PornTube
+----------------------------------------
+[2025-07-02 00:44:37.633627] URL: https://www.google.com/search?q=halarput&rlz=1C1VDKB_enBD1097BD1097&oq=halarput&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgKGIAEMgkIAhAAGAoYgAQyDAgDEC4YChjUAhiABDIJCAQQABgKGIAEMg8IBRAuGAoYrwEYxwEYgAQyCQgGEAAYChiABDIPCAcQLhgKGK8BGMcBGIAEMgkICBAAGAoYgAQyCQgJEAAYChiABNIBCDI4NTlqMGo3qAIIsAIB8QUQ5EYGSnMQMA&sourceid=chrome&ie=UTF-8
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 142.250.193.132, DNS: ['142.250.193.132']
+Title: Title: Google Search
+----------------------------------------
+[2025-07-02 01:00:03.429782] URL: http://porntube.com/api
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 104.21.48.1, DNS: ['104.21.96.1', '104.21.32.1', '104.21.64.1', '104.21.16.1', '104.21.80.1', '104.21.112.1', '104.21.48.1']
+Title: Title: PornTube ® - Free Porn Videos | PornTube
+----------------------------------------
+[2025-07-02 17:01:53.504893] URL: http://shanto ekta notir chele
+SSL: ❌ SSL check failed: [Errno 11001] getaddrinfo failed
+DNS: ❌ DNS lookup failed: [Errno 11001] getaddrinfo failed
+Title: ❌ Site title fetch failed: HTTPConnectionPool(host='shanto%20ekta%20notir%20chele', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001B3383EDBE0>: Failed to resolve 'shanto%20ekta%20notir%20chele' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
+[2025-07-02 17:02:05.714248] URL: http://hackervao.com
+SSL: ❌ SSL check failed: [Errno 11001] getaddrinfo failed
+DNS: ❌ DNS lookup failed: [Errno 11001] getaddrinfo failed
+Title: ❌ Site title fetch failed: HTTPConnectionPool(host='hackervao.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001B3383EBC50>: Failed to resolve 'hackervao.com' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
+[2025-07-02 17:07:42.374868] URL: http://facebook.com
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 157.240.1.35, DNS: ['157.240.1.35']
+Title: Title: Facebook – log in or sign up
+----------------------------------------
+[2025-07-02 18:24:46.530214] URL: http://bal.com
+SSL: ❌ SSL check failed: timed out
+DNS: IP: 44.228.89.255, DNS: ['35.81.120.205', '44.228.89.255']
+Title: Title: Leading Global Immigration Law Firm | BAL Immigration Law
+----------------------------------------
+[2025-07-02 18:24:54.322814] URL: http://dhonematha.com
+SSL: ❌ SSL check failed: [Errno 11001] getaddrinfo failed
+DNS: ❌ DNS lookup failed: [Errno 11001] getaddrinfo failed
+Title: ❌ Site title fetch failed: HTTPConnectionPool(host='dhonematha.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001B33831B6F0>: Failed to resolve 'dhonematha.com' ([Errno 11001] getaddrinfo failed)"))
+----------------------------------------
+[2025-07-03 21:11:04.546847] URL: http://chudon.com
+SSL: ✅ SSL is valid. Issuer: US
+DNS: IP: 5.9.123.186, DNS: ['5.9.123.186']
+Title: Title: Chudon Capital AG
+----------------------------------------
