@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log Viewer</title>
+    <style>
+      body {
+        font-family: monospace;
+        padding: 20px;
+      }
+      input {
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 100%;
+      }
+      pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background: #f7f7f7;
+      }
+      button {
+        margin-right: 10px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>🔍 Logs</h2>
+    <input
+      type="text"
+      id="search"
+      placeholder="Search logs..."
+      oninput="filterLogs()"
+    />
+    <br />
+    <button onclick="downloadLogs()">📥 Download Logs</button>
+    <button onclick="clearLogs()">🗑️ Clear Logs</button>
+    <pre id="logContent">{{ logs }}</pre>
+
+    <script>
+      function filterLogs() {
+        const query = document.getElementById("search").value.toLowerCase();
+        const original = `{{ logs | replace('\n', '\\n') | replace('\r', '') }}`;
+        const filtered = original
+          .split("\\n")
+          .filter((line) => line.toLowerCase().includes(query))
+          .join("\\n");
+        document.getElementById("logContent").innerText = filtered;
+      }
+
+      function downloadLogs() {
+        const blob = new Blob(
+          [document.getElementById("logContent").innerText],
+          { type: "text/plain" }
+        );
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "logs.txt";
+        link.click();
+      }
+
+      function clearLogs() {
+        if (confirm("Are you sure you want to clear all logs?")) {
+          fetch("/clear-logs", { method: "POST" }).then(() =>
+            location.reload()
+          );
+        }
+      }
+    </script>
+  </body>
+</html>
